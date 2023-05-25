@@ -1,0 +1,317 @@
+Initial Population: 
+Chromosome 1: x = 0.756463 f = 2.18423
+Chromosome 2: x = 0.849974 f = 2.12752
+Chromosome 3: x = 0.41993 f = 2.24359
+Chromosome 4: x = -0.101872 f = 1.88775
+Chromosome 5: x = 0.824368 f = 2.14479
+Chromosome 6: x = -0.189192 f = 1.77501
+Chromosome 7: x = 0.0384903 f = 2.03701
+Chromosome 8: x = 0.553375 f = 2.24715
+Chromosome 9: x = -0.93366 f = 0.19462
+Chromosome 10: x = -0.775117 f = 0.624077
+
+Selection Probabilities: 
+Chromosome 1: 0.125058
+Chromosome 2: 0.121811
+Chromosome 3: 0.128457
+Chromosome 4: 0.108083
+Chromosome 5: 0.1228
+Chromosome 6: 0.101628
+Chromosome 7: 0.116629
+Chromosome 8: 0.128661
+Chromosome 9: 0.011143
+Chromosome 10: 0.0357315
+
+Selection Intervals:
+0
+0.125058
+0.246869
+0.375325
+0.483408
+0.606208
+0.707836
+0.824465
+0.953126
+0.964269
+1
+
+Chosen population:
+u = 0.521511 we select chromosome 5
+u = 0.018234 we select chromosome 1
+u = 0.996234 we select chromosome 10
+u = 0.687531 we select chromosome 6
+u = 0.214993 we select chromosome 2
+u = 0.483456 we select chromosome 5
+u = 0.0472417 we select chromosome 1
+u = 0.829954 we select chromosome 8
+u = 0.0762125 we select chromosome 1
+u = 0.102426 we select chromosome 1
+
+After selection: 
+Chromosome 1: x = 0.824368 f = 2.14479
+Chromosome 2: x = 0.756463 f = 2.18423
+Chromosome 3: x = -0.775117 f = 0.624077
+Chromosome 4: x = -0.189192 f = 1.77501
+Chromosome 5: x = 0.849974 f = 2.12752
+Chromosome 6: x = 0.824368 f = 2.14479
+Chromosome 7: x = 0.756463 f = 2.18423
+Chromosome 8: x = 0.553375 f = 2.24715
+Chromosome 9: x = 0.756463 f = 2.18423
+Chromosome 10: x = 0.756463 f = 2.18423
+
+Crossover odds: 0.25
+Chromosome 1: 111010011000010011101 u = 0.328838
+Chromosome 2: 111000001101001111001 u = 0.478289
+Chromosome 3: 000111001100100011111 u = 0.464254
+Chromosome 4: 011001111100100010010 u = 0.112379 < 0.25 => participates
+Chromosome 5: 111011001100101111110 u = 0.640792
+Chromosome 6: 111010011000010011101 u = 0.189806 < 0.25 => participates
+Chromosome 7: 111000001101001111001 u = 0.919308
+Chromosome 8: 110001101101010100000 u = 0.847443
+Chromosome 9: 111000001101001111001 u = 0.513332
+Chromosome 10: 111000001101001111001 u = 0.681511
+
+Crossover between Chromosome 4 and Chromosome 6:
+111011001100101111110 || 111000001101001111001 swapped genome from the point: 5
+Result:
+111001001100101111110 || 111010001101001111001
+
+Chromosome 1: x = 0.824368 f = 2.14479
+Chromosome 2: x = 0.756463 f = 2.18423
+Chromosome 3: x = -0.775117 f = 0.624077
+Chromosome 4: x = -0.189192 f = 1.77501
+Chromosome 5: x = 0.787474 f = 2.16736
+Chromosome 6: x = 0.824368 f = 2.14479
+Chromosome 7: x = 0.818963 f = 2.14826
+Chromosome 8: x = 0.553375 f = 2.24715
+Chromosome 9: x = 0.756463 f = 2.18423
+Chromosome 10: x = 0.756463 f = 2.18423
+
+Mutation probability: 0.2
+The following chromosomes have been changed: 
+Chromosome 8
+
+After mutation:
+Chromosome 1: x = 0.824368 f = 2.14479
+Chromosome 2: x = 0.756463 f = 2.18423
+Chromosome 3: x = -0.775117 f = 0.624077
+Chromosome 4: x = -0.189192 f = 1.77501
+Chromosome 5: x = 0.787474 f = 2.16736
+Chromosome 6: x = 0.824368 f = 2.14479
+Chromosome 7: x = 0.818963 f = 2.14826
+Chromosome 8: x = 0.551422 f = 2.24736
+Chromosome 9: x = 0.756463 f = 2.18423
+Chromosome 10: x = 0.756463 f = 2.18423
+
+Elitist criteria:
+Chromosome 1: x = 0.824368 f = 2.14479
+Chromosome 2: x = 0.756463 f = 2.18423
+Chromosome 3: x = 0.553375 f = 2.24715
+Chromosome 4: x = -0.189192 f = 1.77501
+Chromosome 5: x = 0.787474 f = 2.16736
+Chromosome 6: x = 0.824368 f = 2.14479
+Chromosome 7: x = 0.818963 f = 2.14826
+Chromosome 8: x = 0.551422 f = 2.24736
+Chromosome 9: x = 0.756463 f = 2.18423
+Chromosome 10: x = 0.756463 f = 2.18423
+
+Evolution of Maximum Value:
+Maximum of generation 1 is for x = 0.5533752441
+Value of f(0.5533752441) = 2.247151083
+Average for generation 1 for f(x): 2.142739324
+
+Maximum of generation 2 is for x = 0.5514221191
+Value of f(0.5514221191) = 2.247355766
+Average for generation 2 for f(x): 2.143594409
+
+Maximum of generation 3 is for x = 0.5374736786
+Value of f(0.5374736786) = 2.248595723
+Average for generation 3 for f(x): 1.721124003
+
+Maximum of generation 4 is for x = 0.5374736786
+Value of f(0.5374736786) = 2.248595723
+Average for generation 4 for f(x): 1.89726559
+
+Maximum of generation 5 is for x = 0.5373468399
+Value of f(0.5373468399) = 2.248605214
+Average for generation 5 for f(x): 1.691472308
+
+Maximum of generation 6 is for x = 0.5373468399
+Value of f(0.5373468399) = 2.248605214
+Average for generation 6 for f(x): 1.51842944
+
+Maximum of generation 7 is for x = 0.5373468399
+Value of f(0.5373468399) = 2.248605214
+Average for generation 7 for f(x): 1.394877195
+
+Maximum of generation 8 is for x = 0.5062236786
+Value of f(0.5062236786) = 2.249961266
+Average for generation 8 for f(x): 1.521400349
+
+Maximum of generation 9 is for x = 0.5062236786
+Value of f(0.5062236786) = 2.249961266
+Average for generation 9 for f(x): 1.376467526
+
+Maximum of generation 10 is for x = 0.5062236786
+Value of f(0.5062236786) = 2.249961266
+Average for generation 10 for f(x): 1.259194387
+
+Maximum of generation 11 is for x = 0.5062236786
+Value of f(0.5062236786) = 2.249961266
+Average for generation 11 for f(x): 1.205103846
+
+Maximum of generation 12 is for x = 0.5062227249
+Value of f(0.5062227249) = 2.249961278
+Average for generation 12 for f(x): 1.141802299
+
+Maximum of generation 13 is for x = 0.5062227249
+Value of f(0.5062227249) = 2.249961278
+Average for generation 13 for f(x): 1.120774015
+
+Maximum of generation 14 is for x = 0.5062227249
+Value of f(0.5062227249) = 2.249961278
+Average for generation 14 for f(x): 1.133389462
+
+Maximum of generation 15 is for x = 0.5062227249
+Value of f(0.5062227249) = 2.249961278
+Average for generation 15 for f(x): 1.187613095
+
+Maximum of generation 16 is for x = 0.5062246323
+Value of f(0.5062246323) = 2.249961254
+Average for generation 16 for f(x): 1.234702622
+
+Maximum of generation 17 is for x = 0.5060968399
+Value of f(0.5060968399) = 2.249962829
+Average for generation 17 for f(x): 1.170306911
+
+Maximum of generation 18 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 18 for f(x): 1.117789627
+
+Maximum of generation 19 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 19 for f(x): 1.073017276
+
+Maximum of generation 20 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 20 for f(x): 1.031286209
+
+Maximum of generation 21 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 21 for f(x): 1.009949939
+
+Maximum of generation 22 is for x = 0.5378065109
+Value of f(0.5378065109) = 2.248570668
+Average for generation 22 for f(x): 0.9925867781
+
+Maximum of generation 23 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 23 for f(x): 0.9982024191
+
+Maximum of generation 24 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 24 for f(x): 1.003158694
+
+Maximum of generation 25 is for x = 0.5064735413
+Value of f(0.5064735413) = 2.249958093
+Average for generation 25 for f(x): 0.9699551279
+
+Maximum of generation 26 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 26 for f(x): 0.9413079659
+
+Maximum of generation 27 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 27 for f(x): 0.9269467337
+
+Maximum of generation 28 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 28 for f(x): 0.9257586134
+
+Maximum of generation 29 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 29 for f(x): 0.9077756643
+
+Maximum of generation 30 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 30 for f(x): 0.9129020115
+
+Maximum of generation 31 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 31 for f(x): 0.9175353851
+
+Maximum of generation 32 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 32 for f(x): 0.9496301976
+
+Maximum of generation 33 is for x = 0.5376443863
+Value of f(0.5376443863) = 2.2485829
+Average for generation 33 for f(x): 0.9273624474
+
+Maximum of generation 34 is for x = 0.5376434326
+Value of f(0.5376434326) = 2.248582972
+Average for generation 34 for f(x): 0.9066851374
+
+Maximum of generation 35 is for x = 0.5376434326
+Value of f(0.5376434326) = 2.248582972
+Average for generation 35 for f(x): 0.8871944596
+
+Maximum of generation 36 is for x = 0.5376434326
+Value of f(0.5376434326) = 2.248582972
+Average for generation 36 for f(x): 0.8688218414
+
+Maximum of generation 37 is for x = 0.5376434326
+Value of f(0.5376434326) = 2.248582972
+Average for generation 37 for f(x): 0.8542046244
+
+Maximum of generation 38 is for x = 0.5063638687
+Value of f(0.5063638687) = 2.249959501
+Average for generation 38 for f(x): 0.8376404654
+
+Maximum of generation 39 is for x = 0.5063638687
+Value of f(0.5063638687) = 2.249959501
+Average for generation 39 for f(x): 0.821865147
+
+Maximum of generation 40 is for x = 0.5063638687
+Value of f(0.5063638687) = 2.249959501
+Average for generation 40 for f(x): 0.8069480477
+
+Maximum of generation 41 is for x = 0.5063638687
+Value of f(0.5063638687) = 2.249959501
+Average for generation 41 for f(x): 0.7922447299
+
+Maximum of generation 42 is for x = 0.5063638687
+Value of f(0.5063638687) = 2.249959501
+Average for generation 42 for f(x): 0.7787373054
+
+Maximum of generation 43 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 43 for f(x): 0.7659058566
+
+Maximum of generation 44 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 44 for f(x): 0.7622438706
+
+Maximum of generation 45 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 45 for f(x): 0.7540414756
+
+Maximum of generation 46 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 46 for f(x): 0.7463893308
+
+Maximum of generation 47 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 47 for f(x): 0.7515230742
+
+Maximum of generation 48 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 48 for f(x): 0.749711591
+
+Maximum of generation 49 is for x = 0.5063676834
+Value of f(0.5063676834) = 2.249959453
+Average for generation 49 for f(x): 0.7391129533
+
+Maximum of generation 50 is for x = 0.5024614334
+Value of f(0.5024614334) = 2.249993941
+Average for generation 50 for f(x): 0.7288589505
